@@ -1,0 +1,78 @@
+[Device] cpu | Non-Negative Weights: False | Hidden=(9, 7)
+Epoch 01 | Train acc 0.1979 | Val acc 0.2029
+Epoch 02 | Train acc 0.2583 | Val acc 0.2502
+Epoch 03 | Train acc 0.4922 | Val acc 0.4759
+Epoch 04 | Train acc 0.5819 | Val acc 0.5778
+Epoch 05 | Train acc 0.6866 | Val acc 0.6806
+Epoch 06 | Train acc 0.7308 | Val acc 0.7316
+Epoch 07 | Train acc 0.7559 | Val acc 0.7616
+Epoch 08 | Train acc 0.8151 | Val acc 0.8144
+Epoch 09 | Train acc 0.8504 | Val acc 0.8508
+Epoch 10 | Train acc 0.8686 | Val acc 0.8653
+Epoch 11 | Train acc 0.8765 | Val acc 0.8717
+Epoch 12 | Train acc 0.8806 | Val acc 0.8763
+Epoch 13 | Train acc 0.8834 | Val acc 0.8790
+Epoch 14 | Train acc 0.8884 | Val acc 0.8835
+Epoch 15 | Train acc 0.8913 | Val acc 0.8854
+Epoch 16 | Train acc 0.8955 | Val acc 0.8863
+Epoch 17 | Train acc 0.8992 | Val acc 0.8863
+Epoch 18 | Train acc 0.9008 | Val acc 0.8890
+Epoch 19 | Train acc 0.9025 | Val acc 0.8935
+Epoch 20 | Train acc 0.9054 | Val acc 0.9017
+Epoch 21 | Train acc 0.9075 | Val acc 0.9017
+Epoch 22 | Train acc 0.9104 | Val acc 0.9026
+Epoch 23 | Train acc 0.9131 | Val acc 0.9045
+Epoch 24 | Train acc 0.9136 | Val acc 0.9099
+Epoch 25 | Train acc 0.9154 | Val acc 0.9154
+Epoch 26 | Train acc 0.9164 | Val acc 0.9181
+Epoch 27 | Train acc 0.9183 | Val acc 0.9190
+Epoch 28 | Train acc 0.9188 | Val acc 0.9190
+Epoch 29 | Train acc 0.9194 | Val acc 0.9208
+Epoch 30 | Train acc 0.9210 | Val acc 0.9227
+Epoch 31 | Train acc 0.9219 | Val acc 0.9217
+Epoch 32 | Train acc 0.9235 | Val acc 0.9227
+Epoch 33 | Train acc 0.9239 | Val acc 0.9245
+Epoch 34 | Train acc 0.9244 | Val acc 0.9254
+Epoch 35 | Train acc 0.9256 | Val acc 0.9245
+Epoch 36 | Train acc 0.9255 | Val acc 0.9245
+Epoch 37 | Train acc 0.9268 | Val acc 0.9245
+Epoch 38 | Train acc 0.9264 | Val acc 0.9254
+Epoch 39 | Train acc 0.9288 | Val acc 0.9272
+Epoch 40 | Train acc 0.9286 | Val acc 0.9281
+Epoch 41 | Train acc 0.9287 | Val acc 0.9281
+Epoch 42 | Train acc 0.9293 | Val acc 0.9272
+Epoch 43 | Train acc 0.9291 | Val acc 0.9281
+Epoch 44 | Train acc 0.9297 | Val acc 0.9272
+Epoch 45 | Train acc 0.9299 | Val acc 0.9281
+Epoch 46 | Train acc 0.9299 | Val acc 0.9272
+Epoch 47 | Train acc 0.9304 | Val acc 0.9281
+Epoch 48 | Train acc 0.9304 | Val acc 0.9281
+Epoch 49 | Train acc 0.9306 | Val acc 0.9281
+Epoch 50 | Train acc 0.9309 | Val acc 0.9299
+Epoch 51 | Train acc 0.9310 | Val acc 0.9290
+Epoch 52 | Train acc 0.9312 | Val acc 0.9299
+Epoch 53 | Train acc 0.9312 | Val acc 0.9290
+Epoch 54 | Train acc 0.9312 | Val acc 0.9290
+Epoch 55 | Train acc 0.9317 | Val acc 0.9290
+Epoch 56 | Train acc 0.9318 | Val acc 0.9290
+Epoch 57 | Train acc 0.9319 | Val acc 0.9290
+Epoch 58 | Train acc 0.9319 | Val acc 0.9299
+Epoch 59 | Train acc 0.9323 | Val acc 0.9299
+Epoch 60 | Train acc 0.9324 | Val acc 0.9299
+[Test] acc=0.9200
+              precision    recall  f1-score   support
+
+           0     0.9569    0.9652    0.9610       115
+           1     0.8761    0.8609    0.8684       115
+           2     0.9113    0.9826    0.9456       115
+           3     0.9352    0.9619    0.9484       105
+           4     0.9727    0.9304    0.9511       115
+           5     0.8942    0.8857    0.8900       105
+           6     0.9545    1.0000    0.9767       105
+           7     0.9412    0.8421    0.8889       114
+           8     0.9381    0.8585    0.8966       106
+           9     0.8276    0.9143    0.8688       105
+
+    accuracy                         0.9200      1100
+   macro avg     0.9208    0.9202    0.9195      1100
+weighted avg     0.9213    0.9200    0.9197      1100

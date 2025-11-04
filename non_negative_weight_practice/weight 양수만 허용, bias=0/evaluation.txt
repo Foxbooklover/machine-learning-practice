@@ -1,0 +1,81 @@
+[Device] cpu | Non-Negative Weights: True | Hidden=(9, 7)
+Epoch 01 | Train acc 0.1708 | Val acc 0.1702
+Epoch 02 | Train acc 0.1714 | Val acc 0.1692
+Epoch 03 | Train acc 0.1725 | Val acc 0.1683
+Epoch 04 | Train acc 0.1786 | Val acc 0.1720
+Epoch 05 | Train acc 0.1895 | Val acc 0.1820
+Epoch 06 | Train acc 0.1958 | Val acc 0.1884
+Epoch 07 | Train acc 0.2121 | Val acc 0.2047
+Epoch 08 | Train acc 0.2127 | Val acc 0.2029
+Epoch 09 | Train acc 0.2128 | Val acc 0.2102
+Epoch 10 | Train acc 0.2617 | Val acc 0.2621
+Epoch 11 | Train acc 0.2830 | Val acc 0.2748
+Epoch 12 | Train acc 0.2719 | Val acc 0.2721
+Epoch 13 | Train acc 0.3079 | Val acc 0.2948
+Epoch 14 | Train acc 0.3089 | Val acc 0.2985
+Epoch 15 | Train acc 0.3297 | Val acc 0.3194
+Epoch 16 | Train acc 0.3341 | Val acc 0.3294
+Epoch 17 | Train acc 0.3361 | Val acc 0.3239
+Epoch 18 | Train acc 0.3441 | Val acc 0.3348
+Epoch 19 | Train acc 0.3568 | Val acc 0.3512
+Epoch 20 | Train acc 0.3591 | Val acc 0.3494
+Epoch 21 | Train acc 0.3696 | Val acc 0.3640
+Epoch 22 | Train acc 0.3758 | Val acc 0.3712
+Epoch 23 | Train acc 0.3750 | Val acc 0.3685
+Epoch 24 | Train acc 0.3783 | Val acc 0.3740
+Epoch 25 | Train acc 0.3748 | Val acc 0.3712
+Epoch 26 | Train acc 0.3781 | Val acc 0.3731
+Epoch 27 | Train acc 0.3779 | Val acc 0.3731
+Epoch 28 | Train acc 0.3837 | Val acc 0.3749
+Epoch 29 | Train acc 0.3822 | Val acc 0.3794
+Epoch 30 | Train acc 0.3858 | Val acc 0.3803
+Epoch 31 | Train acc 0.3843 | Val acc 0.3849
+Epoch 32 | Train acc 0.3881 | Val acc 0.3876
+Epoch 33 | Train acc 0.3935 | Val acc 0.3913
+Epoch 34 | Train acc 0.3909 | Val acc 0.3885
+Epoch 35 | Train acc 0.3901 | Val acc 0.3885
+Epoch 36 | Train acc 0.3999 | Val acc 0.4013
+Epoch 37 | Train acc 0.3992 | Val acc 0.3958
+Epoch 38 | Train acc 0.4027 | Val acc 0.4049
+Epoch 39 | Train acc 0.4382 | Val acc 0.4304
+Epoch 40 | Train acc 0.4391 | Val acc 0.4322
+Epoch 41 | Train acc 0.4400 | Val acc 0.4349
+Epoch 42 | Train acc 0.4430 | Val acc 0.4368
+Epoch 43 | Train acc 0.4427 | Val acc 0.4359
+Epoch 44 | Train acc 0.4446 | Val acc 0.4404
+Epoch 45 | Train acc 0.4446 | Val acc 0.4404
+Epoch 46 | Train acc 0.4463 | Val acc 0.4431
+Epoch 47 | Train acc 0.4459 | Val acc 0.4449
+Epoch 48 | Train acc 0.4473 | Val acc 0.4449
+Epoch 49 | Train acc 0.4474 | Val acc 0.4468
+Epoch 50 | Train acc 0.4490 | Val acc 0.4468
+Epoch 51 | Train acc 0.4502 | Val acc 0.4477
+Epoch 52 | Train acc 0.4497 | Val acc 0.4486
+Epoch 53 | Train acc 0.4499 | Val acc 0.4449
+Epoch 54 | Train acc 0.4492 | Val acc 0.4459
+Epoch 55 | Train acc 0.4500 | Val acc 0.4440
+Epoch 56 | Train acc 0.4497 | Val acc 0.4449
+Epoch 57 | Train acc 0.4501 | Val acc 0.4459
+Epoch 58 | Train acc 0.4513 | Val acc 0.4431
+Epoch 59 | Train acc 0.4517 | Val acc 0.4431
+Epoch 60 | Train acc 0.4514 | Val acc 0.4431
+[Test] acc=0.4291
+3
+c:\Users\koh21\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           0     0.1611    0.5043    0.2442       115
+           1     0.7750    0.2696    0.4000       115
+           2     0.0000    0.0000    0.0000       115
+           3     0.3961    0.9619    0.5611       105
+           4     0.9123    0.9043    0.9083       115
+           5     0.0000    0.0000    0.0000       105
+           6     0.0000    0.0000    0.0000       105
+           7     0.6970    0.2018    0.3129       114
+           8     0.4892    0.6415    0.5551       106
+           9     0.5472    0.8286    0.6591       105
+
+    accuracy                         0.4291      1100
+   macro avg     0.3978    0.4312    0.3641      1100
+weighted avg     0.4027    0.4291    0.3647      1100
